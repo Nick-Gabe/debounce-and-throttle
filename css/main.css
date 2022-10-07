@@ -8,9 +8,30 @@ main {
   content: 'Mova seu mouse';
 }
 
+.normal--brief::after {
+  content: 'movimento do mouse';
+}
+
+.debounce--brief::after {
+  content: 'movimentar o mouse';
+}
+
+.throttle--brief::after {
+  content: 'movimento';
+}
+
 @media (max-width: 768px) {
   .action::after {
     content: 'Clique na tela';
+  }
+  .normal--brief::after {
+    content: 'clique na tela';
+  }
+  .debounce--brief::after {
+    content: 'clicar na tela';
+  }
+  .throttle--brief::after {
+    content: 'clique';
   }
 }
 

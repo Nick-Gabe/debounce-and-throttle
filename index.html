@@ -21,17 +21,16 @@
     </div>
     <div class="container">
       <h2 id="normal">0</h2>
-      <p>Executa a cada movimento do mouse</p>
+      <p class="normal--brief">Executa a cada </p>
     </div>
     <div class="container">
       <h2 id="debounce">0</h2>
-      <p>Executa <span class="input"><input id="debounceInput" type="number" min="0">s</span> após parar de movimentar o
-        mouse</p>
+      <p class="debounce--brief">Executa <span class="input"><input id="debounceInput" type="number" min="0">s</span> após parar de </p>
       <details>
         <summary>Explicação da lógica</summary>
         <div class="content">
           <p>Debounce é particularmente útil para situações onde o usuário precisa inserir algo, e ao invés de executar para cada mudança, o código espera que tudo tenha sido finalizado para finalmente executar (exemplo: validação de email).</p>
-          <p>A cada ação (nesse exemplo, movimento do mouse), ele inicia um temporizador.
+          <p>A cada ação (nesse exemplo, <span class="normal--brief"></span>), ele inicia um temporizador.
           </p>
           <p>Logo no início do código ele verifica se já existe um temporizador em progresso no momento, e caso exista,
             ele cancela o temporizador antigo e cria um novo.
@@ -62,9 +61,7 @@
     </div>
     <div class="container">
       <h2 id="throttle">0</h2>
-      <p>Executa com um delay de <span class="input"><input id="throttleInput" type="number" min="0">s</span> entre cada
-        movimento
-      </p>
+      <p class="throttle--brief">Executa com um delay de <span class="input"><input id="throttleInput" type="number" min="0">s</span> entre cada </p>
       <details>
         <summary>Explicação da lógica</summary>
         <div class="content">
