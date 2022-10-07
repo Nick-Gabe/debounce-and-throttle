@@ -1,0 +1,65 @@
+main {
+  width: 80vw;
+  max-width: 500px;
+  border-radius: 10px;
+}
+
+.action::after {
+  content: 'Mova seu mouse';
+}
+
+@media (max-width: 768px) {
+  .action::after {
+    content: 'Clique na tela';
+  }
+}
+
+.title h2 {
+  border-radius: 5px;
+  background-color: var(--accent);
+  padding: 5px;
+}
+
+.title h1, .title h2 {
+  text-align: center;
+  margin: 0;
+}
+
+.container > p {
+  margin: 0 0 10px 0;
+}
+
+.container > h2 {
+  margin: 20px 0 0 0;
+  text-decoration: dotted;
+}
+
+details {
+  margin: 0 0 10px 0;
+}
+
+summary {
+  padding-left: 10px;
+  background-color: var(--bg-variant);
+  border-radius: 5px;
+}
+
+details > .content {
+  background-color: #282936;
+  border-radius: 0 0 10px 10px;
+  padding: 20px;
+}
+
+details > .content > p:first-of-type {
+  margin-top: 0;
+}
+
+details > .content > p {
+  font-weight: 300;
+  text-indent: 20px;
+  color: var(--white);
+}
+
+summary:hover {
+  cursor: pointer;
+}

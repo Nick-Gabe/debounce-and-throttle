@@ -1,0 +1,19 @@
+header {
+  margin-bottom: 5px;
+}
+
+header a {
+  padding: 2px;
+  border-radius: 5px;
+  box-shadow: none;
+  font-weight: 600;
+  text-decoration: none;
+  transition: box-shadow .2s ease,
+    padding .2s ease;
+  color: black;
+}
+
+header a:hover {
+  color: initial;
+  box-shadow: inset var(--details) 0 -30px;
+}

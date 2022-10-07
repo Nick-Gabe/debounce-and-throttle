@@ -1,0 +1,27 @@
+#normal::before {
+  content: '• Normal: ';
+}
+
+#debounce::before {
+  content: '• Debounce: ';
+}
+
+#throttle::before {
+  content: '• Throttle: ';
+}
+
+input {
+  min-width: 20px;
+  width: 1ch;
+  text-align: center;
+  border: none;
+  background-color: transparent;
+  font-weight: bold;
+}
+
+.input {
+  background-color: var(--bright-bg);
+  border-radius: 5px;
+  padding: 0 5px;
+  font-weight: bold;
+}
